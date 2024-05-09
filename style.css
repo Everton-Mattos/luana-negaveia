@@ -1,0 +1,41 @@
+.container {
+    text-align: center;
+    margin-top: 100px;
+}
+
+#heart {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation: heartbeat 1s infinite alternate;
+}
+
+@keyframes heartbeat {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.2);
+    }
+}
+
+#loveButton {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#message {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+
+
